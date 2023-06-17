@@ -15,6 +15,7 @@ description: freenom域名注册
 mathjax: true
 katex: true
 swiper_index: 8 #置顶轮播图顺序，非负整数，数字越大越靠前
+abbrlink: 44792
 ---
 # 前言
 对于新手个人站长，买一个几十块甚至几百块的域名显然不太合适。所以，Freenom出现了。它能帮我们免费注册.ga .ml .tk .gq .cf的顶级域名。这些顶级域名都是小国家的，分别是加蓬、马里共和国、托克劳群岛、赤道几内亚和中非共和国。
