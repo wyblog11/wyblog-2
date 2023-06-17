@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 贰猹の小窝
+title: 无影博客
 subtitle: '奋力奔跑，去追心中的那一道光'
 description: '欢迎光临小窝！'
 keywords:
-author: noionion
+author: wyblog
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://noionion.top
+url: https://wyblog1.tk/
 root: /
 permalink: :abbrlink.html
 permalink_defaults:
@@ -149,7 +149,7 @@ feed:
 # 页脚计时器：[Native JS Timer](https://akilar.top/posts/b941af/)
 # 页脚徽标：[Add Github Badge](https://akilar.top/posts/e87ad7f8/)
 footer_beautify:
-  enable:
+  enable: true
     timer: false # 计时器开关
     bdage: true # 徽标开关
   priority: 5 #过滤器优先权
