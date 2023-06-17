@@ -10,7 +10,7 @@ tags:
   - 主题
 
 isTop: false
-cover: https://www.wyblog1.tk/Cover/cover02.jpg
+top_img: https://www.wyblog1.tk/Cover/cover02.jpg
 description: heaven主题文档
 swiper_index: 5 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
