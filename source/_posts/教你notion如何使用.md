@@ -2,7 +2,8 @@
 title: '教你notion如何使用'
 ai: 让你的notion成为你的工具。
 date: 2023-06-04 20:05:10
-categories: [notion]
+categories: 
+  - notion
 tags: 
   - 工具
   - notion
