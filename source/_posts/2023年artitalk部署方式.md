@@ -2,10 +2,14 @@
 title: '2023年artitalk部署方式'
 ai: 暂无预设简介，请点击下方AI实时简介按钮。
 date: 2023-01-26 20:05:10
-categories: [artitalk]
-tags: 说说
+categories: 
+  - artitalk
+tags: 
+  - 说说
 isTop: false
 top_img: https://images.boysec.cn/cover1.webp
+mathjax: true
+katex: true
 description: 最新artalk部署方式
 swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 top_group_index: 1 #右侧磁帖顺序，需填非负整数，数字越大越靠前
