@@ -13,6 +13,8 @@ isTop: false
 top_img: https://images.boysec.cn/cover1.webp
 description: 用super搭建属于自己的博客
 swiper_index: 14 #置顶轮播图顺序，非负整数，数字越大越靠前
+mathjax: true
+katex: true
 ---
 在使用Notion的过程中,我们将页面链接分享给任何用户,只要他没有注册登录Notion 分享页面就无法直接访问.
 # 1.准备工作
