@@ -14,6 +14,7 @@ description: 教你notion如何使用
 swiper_index: 13 #置顶轮播图顺序，非负整数，数字越大越靠前
 mathjax: true
 katex: true
+abbrlink: 43693
 ---
 # 1.汉化
 当我们安装notion或在notion网页版中打开时都会发现都会呈现英文版，一些国内的notion大多数功能要付费，看都看不懂，所以要将notion语言变成中文才能进行以下一些功能。所以接下来教大家如何把notion汉化。
