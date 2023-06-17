@@ -8,7 +8,6 @@ tags:
   - notion
 published: true
 hideInList: true
-isTop: false
 top_img: https://cdn-us.imgs.moe/2023/06/05/647de01ca8faa.png
 description: 教你notion如何使用
 swiper_index: 13 #置顶轮播图顺序，非负整数，数字越大越靠前
