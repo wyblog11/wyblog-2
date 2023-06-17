@@ -2,9 +2,8 @@
 title: 'rsr基础使用'
 date: 2023-05-21 11:22:10
 ai: 教你如何制作rsr关卡
-published: true
-hideInList: true
-categories: [rsr]
+categories: 
+  - rsr
 tags:
   - rsr
   - 关卡制作
