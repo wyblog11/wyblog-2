@@ -12,6 +12,8 @@ tags:
 isTop: false
 top_img: https://angang-us.imgs.moe/2023/05/19/64676ec0a601c.jpg
 description: freenom域名注册
+mathjax: true
+katex: true
 swiper_index: 8 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 # 前言
