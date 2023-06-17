@@ -150,8 +150,8 @@ feed:
 # 页脚徽标：[Add Github Badge](https://akilar.top/posts/e87ad7f8/)
 footer_beautify:
   enable: true
-    timer: false # 计时器开关
-    bdage: true # 徽标开关
+    timer: false
+    bdage: true
   priority: 5 #过滤器优先权
   enable_page: all # 应用页面
   exclude: #屏蔽页面
