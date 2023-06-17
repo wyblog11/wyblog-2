@@ -15,6 +15,7 @@ description: 如何制作一款适合自己的flowus模板
 swiper_index: 8 #置顶轮播图顺序，非负整数，数字越大越靠前
 mathjax: true
 katex: true
+abbrlink: 56086
 ---
 # 效果展示
 网站地址：[mnblog.flowus.cn](https://mnblog.flowus.cn)
