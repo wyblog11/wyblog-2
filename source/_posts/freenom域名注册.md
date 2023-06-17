@@ -1,5 +1,5 @@
 ---
-title: 'freenom域名注册'
+title: freenom域名注册
 date: 2023-05-19 20:43:10
 ai: 教你如何注册一个域名
 categories: 
@@ -7,7 +7,6 @@ categories:
 tags:
   - freenom
   - 域名注册
-
 top_img: https://angang-us.imgs.moe/2023/05/19/64676ec0a601c.jpg
 description: freenom域名注册
 mathjax: true
