@@ -10,7 +10,6 @@ tags:
   - 关卡制作
   - 滚动的天空
 
-isTop: false
 top_img: https://angang-us.imgs.moe/2023/05/21/6469ce74945fd.jpg
 description: 教你如何制作rsr关卡
 swiper_index: 9 #置顶轮播图顺序，非负整数，数字越大越靠前
