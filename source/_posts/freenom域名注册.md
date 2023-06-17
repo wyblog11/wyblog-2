@@ -9,7 +9,6 @@ tags:
   - freenom
   - 域名注册
 
-isTop: false
 top_img: https://angang-us.imgs.moe/2023/05/19/64676ec0a601c.jpg
 description: freenom域名注册
 mathjax: true
