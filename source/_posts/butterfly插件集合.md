@@ -2,9 +2,8 @@
 title: 'butterfly插件集合'
 date: 2023-05-28 16:26:10
 ai: 适用于butterfly主题的插件
-published: true
-hideInList: true
-categories: [博客魔改]
+categories: 
+  - 博客魔改
 tags:
   - Butterfly
   - 博客魔改
