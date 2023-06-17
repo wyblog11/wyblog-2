@@ -13,6 +13,8 @@ isTop: false
 top_img: https://cdn-us.imgs.moe/2023/06/17/648d589f86496.jpg
 description: 如何制作一款适合自己的flowus模板
 swiper_index: 8 #置顶轮播图顺序，非负整数，数字越大越靠前
+mathjax: true
+katex: true
 ---
 # 效果展示
 网站地址：[mnblog.flowus.cn](https://mnblog.flowus.cn)
