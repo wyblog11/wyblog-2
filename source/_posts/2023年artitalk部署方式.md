@@ -6,7 +6,6 @@ categories:
   - artitalk
 tags: 
   - 说说
-isTop: false
 top_img: https://images.boysec.cn/cover1.webp
 mathjax: true
 katex: true
