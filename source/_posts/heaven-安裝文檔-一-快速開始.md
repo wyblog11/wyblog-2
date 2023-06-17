@@ -9,7 +9,6 @@ tags:
   - hexo
   - 主题
 
-isTop: false
 top_img: https://www.wyblog1.tk/Cover/cover02.jpg
 description: heaven主题文档
 mathjax: true
