@@ -12,5 +12,7 @@ tags:
 isTop: false
 top_img: https://www.wyblog1.tk/Cover/cover02.jpg
 description: heaven主题文档
+mathjax: true
+katex: true
 swiper_index: 6 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
