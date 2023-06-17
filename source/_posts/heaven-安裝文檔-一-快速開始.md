@@ -1,5 +1,5 @@
 ---
-title: 'heaven 安裝文檔(一) 快速開始'
+title: heaven 安裝文檔(一) 快速開始
 date: 2023-03-24 20:05:10
 categories: 
   - heaven
