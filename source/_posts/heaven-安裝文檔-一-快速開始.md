@@ -15,6 +15,7 @@ description: heaven主题文档
 mathjax: true
 katex: true
 swiper_index: 5 #置顶轮播图顺序，非负整数，数字越大越靠前
+abbrlink: 29916
 ---
 
 {% note blue 'fas fa-bullhorn' %}
