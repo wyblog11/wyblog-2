@@ -2,9 +2,8 @@
 title: 'freenom域名注册'
 date: 2023-05-19 20:43:10
 ai: 教你如何注册一个域名
-published: true
-hideInList: true
-categories: [freenom]
+categories: 
+  - freenom
 tags:
   - freenom
   - 域名注册
