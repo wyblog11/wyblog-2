@@ -14,6 +14,8 @@ isTop: false
 top_img: https://angang-us.imgs.moe/2023/05/21/6469ce74945fd.jpg
 description: 教你如何制作rsr关卡
 swiper_index: 9 #置顶轮播图顺序，非负整数，数字越大越靠前
+mathjax: true
+katex: true
 ---
 # 关卡页面
 ![关卡页面.png](https://cdn-us.imgs.moe/2023/05/21/6469d887e3ff2.png)
