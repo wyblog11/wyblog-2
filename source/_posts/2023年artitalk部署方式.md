@@ -10,6 +10,7 @@ isTop: false
 top_img: https://images.boysec.cn/cover1.webp
 mathjax: true
 katex: true
+abbrlink: 24193
 description: 最新artalk部署方式
 swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 top_group_index: 1 #右侧磁帖顺序，需填非负整数，数字越大越靠前
