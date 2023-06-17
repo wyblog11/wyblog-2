@@ -7,24 +7,27 @@
 #   name: link || icon
 
 menu:
-  甜瓜待摘 || icon-xigua1:
-    教程分享: /tags/Course/ || icon-jiaocheng
-    自制项目: /tags/Project/ || icon-xiangmu
-  种瓜日记 || icon-miao:
-    搓搓C++: /tags/C/ || icon-colorful-code
-    玩玩爬虫: /tags/Python/ || icon-colorful-code
-    摸摸前端: /tags/html/ || icon-colorful-code
-  生活日常 || icon-tea:
-    友情链接: /link/ || icon-pengyou
-    随便说说: https://memos.noionion.cn/ || icon-pengyouquanzhushou2x
-    留言信箱: /messageboard/ || icon-shuoshuo-
-    # 网站收录:
-  猹的哔哔 || icon-liuyan:
-    贰猹随笔: /tags/Diary/ || icon-tubiaozhizuomoban-
-    猹的自述: /about/ || icon-xinfeng
+  文章 || iconfont icon-xiegenjin:
+    归档: /archives/ || iconfont icon-shoujianxiang
+    分类: /categories/ || iconfont icon-shoujianxiang　|| faa-tada
+    标签: /tags/ || iconfont icon-sekuaibiaoqian　|| faa-tada
+    游客访问: /census/ || iconfont icon-tongji || faa-tada
+    即刻短文: /memos/ || iconfont icon-shejiao || faa-tada
+  社交 || iconfont icon-shejiao:
+    友链: /links/ || iconfont icon-pengyou || faa-tada
+    友圈: /friends/ || iconfont icon-iconfontzhizuobiaozhunbduan36　|| faa-tada
+    说说: /artitalk/ || iconfont icon-shejiao || faa-tada
+    哔哔点啥: /bbtalk/ || iconfont icon-shejiao || faa-tada  
+  关于 || iconfont icon-geren || faa-tada:
+    短文: /ispeak/ || iconfont icon-xiegenjin　|| faa-tada
+    关于: /about/ || iconfont icon-geren || faa-tada
+    音乐: /music/ || iconfont icon-yinle || faa-tada
+  小功能 || iconfont icon-gengduo || faa-tada:  
+    报纸: https://news.wyblog1.tk/ || iconfont icon-xinwen || faa-tada
+    木鱼: /muyu/ || iconfont icon-muyu1 || faa-tada
 
 # Hide the child menu items in mobile sidebar
-hide_sidebar_menu_child: false
+hide_sidebar_menu_child: true
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -128,7 +131,7 @@ category_per_img:
 
 cover:
   # display the cover or not (是否顯示文章封面)
-  index_enable: true
+  index_enable: false
   aside_enable: true
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
@@ -289,6 +292,7 @@ comments:
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
   - Twikoo
+  - artalk
   # - Valine
   # - Disqus
   text: true # Display the comment name next to the button
@@ -387,7 +391,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.noionion.cn
+  envId: https://twikoo.wyblog1.tk
   region:
   visitor: false
   option:
@@ -659,7 +663,7 @@ preloader: false
 # --------------------------------------
 
 aside:
-  enable: false
+  enable: true
   hide: false
   button: true
   mobile: false # display on mobile
@@ -751,12 +755,11 @@ readmode: true
 darkmode:
   enable: true
   # Toggle Button to switch dark/light mode
-  button: false
+  button: true
   # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
-  # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: 2
 
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------
@@ -869,6 +872,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
+    - <script async src="//at.alicdn.com/t/c/font_3895868_mv3ae2gjui.js"></script>     
     - <script src="/js/add/nav.js"></script>
     - <script src="/js/add/leftsidemenu.js"></script>
     # - <script src="https://cdn1.tianli0.top/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script> # 拉姆雷姆角标参考
