@@ -15,6 +15,7 @@ description: 适用于butterfly主题的插件
 swiper_index: 12 #置顶轮播图顺序，非负整数，数字越大越靠前
 mathjax: true
 katex: true
+abbrlink: 11647
 ---
 # 一.hexo-butterfly-swiper-marcus
 1.前言
