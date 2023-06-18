@@ -101,7 +101,7 @@ avatar:
 disable_top_img: true
 
 # The banner image of home page
-index_img: "#00000000"
+index_img:
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: "#00000000"
@@ -664,7 +664,7 @@ aside:
   posts: false
   page: true
   mobile: false # display on mobile
-  position: left # left or right
+  position: right # left or right
   card_author:
     enable: true
     description:
