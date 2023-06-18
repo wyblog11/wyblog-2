@@ -131,7 +131,7 @@ category_per_img:
 
 cover:
   # display the cover or not (是否顯示文章封面)
-  index_enable: false
+  index_enable: true
   aside_enable: true
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
@@ -290,7 +290,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
-  use: Twikoo,artalk
+  use: Twikoo
   # - Valine
   # - Disqus
   text: true # Display the comment name next to the button
