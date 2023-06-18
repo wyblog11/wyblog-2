@@ -7,24 +7,21 @@
 #   name: link || icon
 
 menu:
-  文章 || iconfont icon-xiegenjin:
-    归档: /archives/ || iconfont icon-shoujianxiang
-    分类: /categories/ || iconfont icon-shoujianxiang　|| faa-tada
-    标签: /tags/ || iconfont icon-sekuaibiaoqian　|| faa-tada
-    游客访问: /census/ || iconfont icon-tongji || faa-tada
-    即刻短文: /memos/ || iconfont icon-shejiao || faa-tada
-  社交 || iconfont icon-shejiao:
-    友链: /links/ || iconfont icon-pengyou || faa-tada
-    友圈: /friends/ || iconfont icon-iconfontzhizuobiaozhunbduan36　|| faa-tada
-    说说: /artitalk/ || iconfont icon-shejiao || faa-tada
-    哔哔点啥: /bbtalk/ || iconfont icon-shejiao || faa-tada  
-  关于 || iconfont icon-geren || faa-tada:
-    短文: /ispeak/ || iconfont icon-xiegenjin　|| faa-tada
-    关于: /about/ || iconfont icon-geren || faa-tada
-    音乐: /music/ || iconfont icon-yinle || faa-tada
-  小功能 || iconfont icon-gengduo || faa-tada:  
-    报纸: https://news.wyblog1.tk/ || iconfont icon-xinwen || faa-tada
-    木鱼: /muyu/ || iconfont icon-muyu1 || faa-tada
+  文章 || icon-xiegenjin:
+    归档: /archives/ || icon-shoujianxiang
+    分类: /categories/ || icon-shoujianxiang
+    标签: /tags/ || icon-sekuaibiaoqian
+  社交 || icon-shejiao:
+    友链: /links/ || icon-pengyou
+    友圈: /friends/ || icon-iconfontzhizuobiaozhunbduan36
+    即刻短文: /memos/ || iconfont icon-shejiao
+  关于 || icon-geren:
+    短文: /ispeak/ || icon-xiegenjin
+    关于: /about/ || icon-geren
+    音乐: /music/ || icon-yinle
+  小功能 || icon-gengduo:  
+    报纸: https://news.wyblog1.tk/ || icon-xinwen
+    木鱼: /muyu/ || icon-muyu1
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: true
