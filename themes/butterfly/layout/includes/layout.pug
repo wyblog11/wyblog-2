@@ -20,6 +20,8 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
 
       #mainbody
         block content_leftside
+        if is_home()
+          #home_top
         main#content-inner.layout(class=hideAside)
           if body
             div!= body
@@ -41,7 +43,3 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
 
       footer#footer(style=footer_bg)
         !=partial('includes/footer', {}, {cache: true})
-
-    include ./rightside.pug
-    !=partial('includes/third-party/search/index', {}, {cache: true})
-    include ./additional-js.pug
