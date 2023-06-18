@@ -1,19 +1,10 @@
 - var top_img = theme.error_404.background || theme.default_top_img
-- var bg_img = `background-image: url('${url_for(top_img)}')`
 
-doctype html
-html(lang=config.language data-theme=theme.display_mode)
-  head
-    include /head.pug
+#body-wrap.error404
+  include ./header/index.pug
   body
     if theme.preloader
       !=partial('includes/loading/loading', {}, {cache: true})
-
-    if theme.fireworks && theme.fireworks.enable
-      canvas.fireworks
-    
-    if theme.background
-      #web_bg
 
     #error-wrap
       .error-content
@@ -24,5 +15,3 @@ html(lang=config.language data-theme=theme.display_mode)
           a.button--animated(href=config.root)
             i.fas.fa-rocket
             = _p('error404.back_button')
-          
-    include includes/additional-js.pug
