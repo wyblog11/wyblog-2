@@ -660,7 +660,7 @@ aside:
   enable: true
   hide: false
   button: true
-  post: false
+  posts: false
   page: true
   mobile: false # display on mobile
   position: left # left or right
