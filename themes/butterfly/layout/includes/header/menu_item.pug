@@ -38,9 +38,14 @@ if theme.menu
             i.fas.fa-chevron-down
           ul.menus_item_child
             each val,lab in value 
-              - const valArray = val.split('||')
               li
-                a.site-page.child(href=url_for(trim(valArray[0])))
-                  if valArray[1]
-                    i.fa-fw(class=trim(valArray[1]))
+                a.site-page.child(href=url_for(trim(val.split('||')[0])))
+                  if val.split('||')[1]
+                    //- i.fa-fw(class=trim(val.split('||')[1]))
+                    - var icon_val = trim(val.split('||')[1])
+                    if icon_val.substring(0,2)=="fa"      
+                      i.fa-fw(class=icon_val)
+                    else if icon_val.substring(0,4)=="icon"
+                      svg.icon(aria-hidden="true")
+                        use(xlink:href=`#`+ icon_val)
                   span=' '+ lab
