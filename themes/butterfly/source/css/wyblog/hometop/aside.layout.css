@@ -19,7 +19,7 @@
 /* 除了首页以外其他页面隐藏卡片，并采用宽屏显示 */
 #archive,
 #category,
-#post,
+#_post,
 #tag {
   width: 100%;
 }
