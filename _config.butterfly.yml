@@ -90,18 +90,18 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
+favicon: https://cdn-us.imgs.moe/2023/04/22/64431dd94e287.jpg
 
 # Avatar (頭像)
 avatar:
-  img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
+  img: https://cdn-us.imgs.moe/2023/04/22/64431dd94e287.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: true
 
 # The banner image of home page
-index_img:
+index_img: true
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: "#00000000"
