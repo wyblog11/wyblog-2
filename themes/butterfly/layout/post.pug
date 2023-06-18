@@ -73,15 +73,3 @@ block content
     if page.comments !== false && theme.comments && theme.comments.use
       - var commentsJsLoad = true
       !=partial('includes/third-party/comments/index', {}, {cache: true})
-
-block content_rightside
-  #content_rightside
-    #rightside-toc
-      .toc-box
-        if (page.encrypt == true)
-          .toc-content.toc-div-class(style="display:none")!=toc(page.origin, {list_number: tocNumber})
-        else 
-          .toc-content!=toc(page.content, {list_number: tocNumber})
-    #rightside-button
-      button#rightside-go-up(type="button" title=_p("rightside.back_to_top"))
-        i.fas.fa-arrow-up
