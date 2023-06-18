@@ -4,7 +4,7 @@
 doctype html
 html(lang=config.language data-theme=theme.display_mode)
   head
-    include includes/head.pug
+    include /head.pug
   body
     if theme.preloader
       !=partial('includes/loading/loading', {}, {cache: true})
