@@ -75,7 +75,6 @@ block content
       !=partial('includes/third-party/comments/index', {}, {cache: true})
 
 block content_rightside
-  - let tocNumber = page.toc_number !== undefined ? page.toc_number : theme.toc.number
   #content_rightside
     #rightside-toc
       .toc-box
