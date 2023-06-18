@@ -290,9 +290,8 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
-  use: Twikoo
-  # - Valine
-  # - Disqus
+  use: 
+    - Twikoo
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -870,6 +869,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.css" />
     - <script async src="//at.alicdn.com/t/c/font_3895868_mv3ae2gjui.js"></script>     
     - <script src="/js/add/nav.js"></script>
     - <script src="/js/add/leftsidemenu.js"></script>
