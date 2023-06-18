@@ -101,7 +101,7 @@ avatar:
 disable_top_img: true
 
 # The banner image of home page
-index_img: true
+index_img: https://source.fomal.cc/img/home_bg.webp
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: "#00000000"
