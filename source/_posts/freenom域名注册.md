@@ -6,7 +6,7 @@ tags:
   - super
   - notion
   - 博客
-top_img: https://images.boysec.cn/cover1.webp
+cover: https://images.boysec.cn/cover1.webp
 mathjax: true
 katex: true
 description: 用super搭建属于自己的博客
