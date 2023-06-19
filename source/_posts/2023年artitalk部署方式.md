@@ -2,8 +2,7 @@
 title: 2023年artitalk部署方式
 categories: artitalk
 tags: 说说
-top_img: >-
-  https://images.boysec.cn/cover1.webp
+top_img: https://images.boysec.cn/cover1.webp
 mathjax: true
 katex: true
 description: 最新artalk部署方式
