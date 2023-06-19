@@ -1,17 +1,16 @@
 ---
-title: '教你notion如何使用'
-ai: 让你的notion成为你的工具。
-date: 2023-06-04 20:05:10
-categories: [notion]
+title: 教你notion如何使用
+categories: notion
 tags: 
   - 工具
   - notion
-published: true
-hideInList: true
-isTop: false
-cover: https://cdn-us.imgs.moe/2023/06/05/647de01ca8faa.png
+top_img: >-
+  https://cdn-us.imgs.moe/2023/06/05/647de01ca8faa.png
+mathjax: true
+katex: true
 description: 教你notion如何使用
-swiper_index: 13 #置顶轮播图顺序，非负整数，数字越大越靠前
+abbrlink: 13221
+date: 2023-06-04 20:05:10
 ---
 # 1.汉化
 当我们安装notion或在notion网页版中打开时都会发现都会呈现英文版，一些国内的notion大多数功能要付费，看都看不懂，所以要将notion语言变成中文才能进行以下一些功能。所以接下来教大家如何把notion汉化。
