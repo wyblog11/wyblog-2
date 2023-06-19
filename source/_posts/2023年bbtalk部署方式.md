@@ -1,17 +1,4 @@
 ---
-title: '2023年bbtalk部署方式'
-date: 2023-01-27 20:05:10
-published: true
-hideInList: true
-categories: [bbtalk]
-tags: 说说
-isTop: false
-cover: https://images.boysec.cn/cover2.webp
-description: 最新bbtalk部署方式
-swiper_index: 2 #置顶轮播图顺序，非负整数，数字越大越靠前
-top_group_index: 2 #右侧磁帖顺序，需填非负整数，数字越大越靠前
----
----
 title: 2023年bbtalk部署方式
 categories: bbtalk
 tags: 说说
