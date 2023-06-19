@@ -842,7 +842,7 @@ pangu:
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true
-  field: site # site/post
+  field: post # site/post
   placeholder: https://www.fomal.cc/assets/loading2.gif
   blur: false
 
