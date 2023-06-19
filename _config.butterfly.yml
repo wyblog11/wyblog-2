@@ -488,8 +488,8 @@ google_adsense:
 site_verification:
   # - name: google-site-verification
   #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+  - name: baidu-site-verification
+    content: xxxxxxx
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -656,7 +656,7 @@ preloader:
   # 1. fullpage-loading
   # 2. pace (progress bar)
   # else all
-  source: 3
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url: /css/progress_bar.css
   avatar: https://cdn-us.imgs.moe/2023/04/22/64431dd94e287.jpg # 自定义头像
