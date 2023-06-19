@@ -656,10 +656,9 @@ preloader:
   # 1. fullpage-loading
   # 2. pace (progress bar)
   # else all
-  source: 2
+  source: 1
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url: /css/progress_bar.css
-  avatar: https://cdn-us.imgs.moe/2023/04/22/64431dd94e287.jpg # 自定义头像
 
 # aside (側邊欄)
 # --------------------------------------
@@ -670,7 +669,7 @@ aside:
   button: true
   posts: false
   page: true
-  mobile: true # display on mobile
+  mobile: mobile # display on mobile
   position: right # left or right
   card_author:
     enable: true
