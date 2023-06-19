@@ -9,10 +9,9 @@ top_img: >-
 mathjax: true
 katex: true
 description: 适用于butterfly主题的插件
-abbrlink: 10111
+abbrlink: 1320
 date: 2023-05-28 16:26:10
 ---
-
 # 一.hexo-butterfly-swiper-marcus
 1.前言
 {% hideToggle 点击查看 %}
