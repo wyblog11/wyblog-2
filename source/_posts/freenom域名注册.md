@@ -1,18 +1,16 @@
 ---
 title: 'freenom域名注册'
-date: 2023-05-19 20:43:10
-ai: 教你如何注册一个域名
-published: true
-hideInList: true
-categories: [freenom]
+categories: freenom
 tags:
   - freenom
   - 域名注册
-
-isTop: false
-cover: https://angang-us.imgs.moe/2023/05/19/64676ec0a601c.jpg
+writeByhand: true
 description: freenom域名注册
-swiper_index: 8 #置顶轮播图顺序，非负整数，数字越大越靠前
+date: 2023-05-19 20:43:10
+updated: 2023-05-19 20:43:10
+cover: https://angang-us.imgs.moe/2023/05/19/64676ec0a601c.jpg
+swiper_index: 1 #置顶轮播图顺序，需填非负整数，数字越大越靠前
+top_group_index: 1 #右侧磁帖顺序，需填非负整数，数字越大越靠前
 ---
 # 前言
 对于新手个人站长，买一个几十块甚至几百块的域名显然不太合适。所以，Freenom出现了。它能帮我们免费注册.ga .ml .tk .gq .cf的顶级域名。这些顶级域名都是小国家的，分别是加蓬、马里共和国、托克劳群岛、赤道几内亚和中非共和国。
