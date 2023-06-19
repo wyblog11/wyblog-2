@@ -8,6 +8,8 @@ katex: true
 description: 最新artalk部署方式
 abbrlink: 13221
 date: 2023-01-26 20:05:10
+swiper_index: 3 #置顶轮播图顺序，需填非负整数，数字越大越靠前
+top_group_index: 3 #右侧磁帖顺序，需填非负整数，数字越大越靠前
 ---
 artalk部署方式：
 1.在leancloud国际版去注册一个应用(没有就注册一个账号)
