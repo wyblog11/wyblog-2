@@ -1,16 +1,16 @@
 ---
-title: '2023年artitalk部署方式'
-ai: 暂无预设简介，请点击下方AI实时简介按钮。
+title: 2023年artitalk部署方式
+categories:
+  - artitalk
+tags:
+  - 说说
+top_img: >-
+  https://images.boysec.cn/cover1.webp
+mathjax: true
+katex: true
+description: 一天进步一点点
+abbrlink: 24193
 date: 2023-01-26 20:05:10
-categories: [artitalk]
-tags: 说说
-published: true
-hideInList: true
-isTop: false
-cover: https://images.boysec.cn/cover1.webp
-description: 最新artalk部署方式
-swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
-top_group_index: 1 #右侧磁帖顺序，需填非负整数，数字越大越靠前
 ---
 artalk部署方式：
 1.在leancloud国际版去注册一个应用(没有就注册一个账号)
