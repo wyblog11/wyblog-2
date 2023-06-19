@@ -3,12 +3,12 @@ title: 2023年artitalk部署方式
 categories: artitalk
 tags: 说说
 top_img: >-
-  https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4088345299,2353129269&fm=26&gp=0.jpg
+  https://images.boysec.cn/cover1.webp
 mathjax: true
 katex: true
-description: 一天进步一点点
+description: 最新artalk部署方式
 abbrlink: 13221
-date: 2021-07-23 13:55:07
+date: 2023-01-26 20:05:10
 ---
 artalk部署方式：
 1.在leancloud国际版去注册一个应用(没有就注册一个账号)
