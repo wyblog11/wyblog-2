@@ -1,17 +1,16 @@
 ---
-title: 'butterfly插件集合'
-date: 2023-05-28 16:26:10
-ai: 适用于butterfly主题的插件
-published: true
-hideInList: true
+title: butterfly插件集合
 categories: 博客魔改
 tags:
   - Butterfly
   - 博客魔改
-isTop: false
-cover: https://angang-us.imgs.moe/2023/05/21/6469ce74945fd.jpg
+top_img: >-
+  https://angang-us.imgs.moe/2023/05/21/6469ce74945fd.jpg
+mathjax: true
+katex: true
 description: 适用于butterfly主题的插件
-swiper_index: 12 #置顶轮播图顺序，非负整数，数字越大越靠前
+abbrlink: 13221
+date: 2021-07-23 13:55:07
 ---
 # 一.hexo-butterfly-swiper-marcus
 1.前言
