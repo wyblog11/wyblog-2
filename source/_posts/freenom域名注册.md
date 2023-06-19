@@ -1,47 +1,42 @@
 ---
-title: freenom域名注册
-categories: freenom
-tags:
-  - freenom
-  - 域名注册
-cover: https://angang-us.imgs.moe/2023/05/19/64676ec0a601c.jpg
+title: notion和super搭建属于自己的博客
+categories:
+  - notion
+tags: 
+  - super
+  - notion
+  - 博客
+top_img: >-
+  https://images.boysec.cn/cover1.webp
 mathjax: true
 katex: true
-description: 教你如何注册一个域名
-abbrlink: 111111
-date: 2023-05-19 20:43:10
+description: 用super搭建属于自己的博客
+abbrlink: 13229
+date: 2023-06-11 20:05:10
 ---
-# 前言
-对于新手个人站长，买一个几十块甚至几百块的域名显然不太合适。所以，Freenom出现了。它能帮我们免费注册.ga .ml .tk .gq .cf的顶级域名。这些顶级域名都是小国家的，分别是加蓬、马里共和国、托克劳群岛、赤道几内亚和中非共和国。
-# 如何注册一个域名
-**1.要有一个可以科学上网的软件**
-首先去网上下载一个Gooreplacer，任何一个可以下载的就下载下来，下载以后点击Gooreplacer的插件就可以了，在浏览器中打开以后会弹出这个![cooreplarcer.PNG](https://angang-us.imgs.moe/2023/05/19/6467718038da3.png)
-点击上面的配置选项，进入配置填入以下信息
-`````
-匹配模式:www.google.com/recaptcha
-目标地址:recaptcha.net/recaptcha
-匹配类型:通配符
-是否开启:开启
-`````
-填完以后，对照这张图片![重定向.png](https://angang-us.imgs.moe/2023/05/20/646831d25488d.png)
-**2.进入免费域名网址**
-进入以下链接
-{% link https://my.freenom.com/,freenom,https://my.freenom.com/templates/freenom/img/logo.png,人人都熟悉的名字。 %}
-就可以看到首页
-![freenom首页.jpg](https://cdn-us.imgs.moe/2023/05/20/646840579245f.jpg)
-我这里就注册一个示例域名，比如我注册一个zhujibk.tk
-![重定向.png](https://www.shserve.cn/wp-content/uploads/2022/06/d2b5ca33bd97-242.png)
-选好以后，下拉有个完成，点击结算，来到购物车这里我们需要选择12个月，因为最大免费时间是12个月。不选的话，这里就默认是3个月。
-![重定向.png](https://www.shserve.cn/wp-content/uploads/2022/06/d2b5ca33bd97-244-1024x595.png)
-点击继续，然后回跳转到验证邮箱的界面，我们输入自己的邮箱，点击验证
-![](https://www.shserve.cn/wp-content/uploads/2022/06/d2b5ca33bd97-245-1024x514.png)
-这个时候会收到一封邮件，里面是验证链接，我们点击该链接进行验证。这里需要注意的是，如果点击验证以后没有邮件，这个时候我们在垃圾箱查看，看是否被拦截
-![](https://www.shserve.cn/wp-content/uploads/2022/06/d2b5ca33bd97-246.png)
-填写自己的用户信息，需要保证有小部分真实信息。
-![](https://www.shserve.cn/wp-content/uploads/2022/06/d2b5ca33bd97-247-1024x806.png
-点击Complete Order以后，会提示你的订单号。
-![](https://www.shserve.cn/wp-content/uploads/2022/06/d2b5ca33bd97-248.png)
-这里我们点击按钮，会跳转到用户中心。因为是国外的网站，速度会稍微慢一下，耐心等待
-![](https://www.shserve.cn/wp-content/uploads/2022/06/d2b5ca33bd97-249-1024x463.png)
-# 后记
-2023 年 3 月 3 日，Meta (即 Facebook) 在美国加利福尼亚州法院起诉 Freenom，指控 Freenom 存在域名抢注和商标侵权行为，同时 Meta 向法院申请要求 Freenom 提供二十多名注册者的身份信息。这次起诉的主要原因其实就是不少诈骗团伙利用 Freenom 注册域名用于钓鱼网站，这些域名有不少包含 FB、Facebook、INS、Whatsapp 之类的字样，用来迷惑用户。最让 Meta 生气的是即便 Meta 向 Freenom 发送侵权或钓鱼通知后，Freenom 仍然继续提供这些仿冒域名的注册，同时 Freenom 也不采取适当的措施阻止更多诈骗团伙注册这些免费域名。还有个比较损的是，诈骗团伙不可能还为域名续费，于是在域名到期后 Freenom 在这些域名上挂色情广告或其他广告获利，如果有人要买这些钓鱼域名，Freenom 也会出售。直到被起诉后 Freenom 才发个简短的说明表示由于技术原因新注册申请暂停，当前正在研究解决方案，希望尽快恢复运营。目前来说，现在来说，已经在2022年已经完成注册的用户并且有免费域名的话，可以进行续费。晚来的用户可能要等他弄好后，才能注册
+在使用Notion的过程中,我们将页面链接分享给任何用户,只要他没有注册登录Notion 分享页面就无法直接访问.
+# 1.准备工作
+- 要有notion账号
+- 需要把notion软件汉化
+- 准备一个你喜欢的模板
+# 2.教程
+首先，打开notion，在左侧打开你自己的模板，点击右上方的分享点击公开在点击公开到网上，如图操作
+![1685917118144.png](https://cdn-us.imgs.moe/2023/06/05/647d0dbc21f54.png)
+当我们按照以上操作时，我们可以得到一个分享链接，下面可以自定义选项，可以通过这个链接来部署到super。
+打开super，找到get srarted for free，d点击以后可以进去，按照提示注册。
+# 3.Super.so托管Notion
+如果您想要使用Super.so来托管您的Notion页面，以下是一些简单的步骤：
+1. 首先，您需要注册Super.so账号，并将您的Notion页面导入到Super.so中。
+2. 然后，您可以选择使用Super.so提供的自定义域名，或者使用自己的域名来访问Notion页面。
+3. 最后，您可以根据自己的需要选择Super.so提供的其他功能，如备份和恢复、页面密码保护等等。
+# 4.Super.so的优点和缺点
+Super.so是一个Notion的超级托管服务，它提供了许多有用的功能，使得Notion的使用更加顺畅和高效。以下是Super.so的一些优点：
+- **快速加载速度**：Super.so使用了CDN技术，可以加速Notion页面的加载速度，让用户可以更加快速地访问Notion。
+- **备份和恢复功能**：Super.so可以自动备份您的Notion页面，并在需要时提供恢复功能，以避免意外数据丢失。
+- **自定义域名**：Super.so允许您使用自己的域名来访问Notion页面，这对于个人用户和小型团队来说非常方便。
+- **更多功能**：Super.so还提供了一些其他的功能，如页面密码保护、网站统计等等。
+缺点：
+- **一些站点功能无法使用**：比如ceo功能、自定义域名、自定义**head、body、css**
+- **只能注册一个站点**：这个功能有点不好，首先来说，这个功能可以防止notion服务被滥用，可以通过一些手段：比如使用反侦测滥用、邮箱举报（举报后，看是否滥用），但是为什么要弄个没有会员只能注册一个站点，这对于一些需要用到很多站点的用户都是bhd不好的
+# 5.结论
+在使用Notion时，可以通过分享页面链接来让其他人访问，但需要注意未注册Notion的用户无法直接访问。此外，可以使用Super.so来托管Notion页面，它提供了许多有用的功能，如快速加载速度、备份和恢复功能、自定义域名等，但也存在一些缺点，如一些站点功能无法使用、只能注册一个站点等。
