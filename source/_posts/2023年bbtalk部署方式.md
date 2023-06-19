@@ -11,6 +11,17 @@ description: 最新bbtalk部署方式
 swiper_index: 2 #置顶轮播图顺序，非负整数，数字越大越靠前
 top_group_index: 2 #右侧磁帖顺序，需填非负整数，数字越大越靠前
 ---
+---
+title: 2023年bbtalk部署方式
+categories: bbtalk
+tags: 说说
+top_img: https://images.boysec.cn/cover2.webp
+mathjax: true
+katex: true
+description: 一天进步一点点
+abbrlink: 58408
+date: 2023-01-27 20:05:10
+---
 bbtalk部署方式：
 1.在leancloud国际版去注册一个应用(没有就注册一个账号)
 2.绑定一下自定义域名(可以是自己的分域名,也可以是网上免费的二级域名,这个域名没有太多要求,只要能访问就行)
