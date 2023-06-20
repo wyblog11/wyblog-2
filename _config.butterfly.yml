@@ -1,4 +1,3 @@
-index_img: true
 # Main menu navigation (導航目錄)
 # --------------------------------------
 
@@ -877,6 +876,7 @@ inject:
     - <script async src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script> # 引入VUE(f12)
     - <script async src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script> # 引入ElementUI(f12)
     - <link rel="stylesheet" href="/css/loading-img.css">
+    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/xlenco/JS-X@main/pace.js/pace.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
