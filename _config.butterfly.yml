@@ -161,7 +161,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: true
+  enable: ffalse
   subtitle: '404 无法访问'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -247,7 +247,7 @@ post_pagination: 1
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: true
+anchor: false
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
