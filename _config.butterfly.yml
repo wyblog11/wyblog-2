@@ -1053,9 +1053,9 @@ swiper:
 #hexo-butterfly-footer-marcus
 #see https://blog.marcus233.top/p/footer.html
 footer_beautify:
-  enable: false
+  enable: true
   priority: 5 #过滤器优先权
-  enable_page: / # 应用页面
+  enable_page: all # 应用页面
   layout: # 挂载容器类型
       type: id
       name: footer
@@ -1064,7 +1064,7 @@ footer_beautify:
     enable: true
     left:
       - icon: fa-solid fa-compass
-        link: https://mnblog.flowus.cn/
+        link: https://www.marcus233.top/
         desrc: 个人主页
         class: out
       - icon: fa-brands fa-qq
@@ -1081,7 +1081,7 @@ footer_beautify:
         class: out
     right:
       - icon: fa-brands fa-github
-        link: https://github.com/wyblog11
+        link: https://github.com/Marcusyyds
         desrc: Github主页
         class: out
       - icon: fa-brands fa-bilibili
