@@ -28,6 +28,7 @@
     "hexo-renderer-pug": "^1.0.0",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-butterfly-footer-landv": "github:landv/hexo-butterfly-footer-landv",
+    "yamljs": "^0.3.0",
     "hexo-server": "^3.0.0",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-wordcount": "^6.0.1"
