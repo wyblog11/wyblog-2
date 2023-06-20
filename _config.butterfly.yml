@@ -1074,7 +1074,7 @@ footer_beautify:
     enable: true
     left:
       - icon: fa-solid fa-compass
-        link: https://www.marcus233.top/
+        link: https://mnblog.flowus.cn/
         desrc: 个人主页
         class: out
       - icon: fa-brands fa-qq
@@ -1086,12 +1086,12 @@ footer_beautify:
         desrc: 联系微信
         class: in
       - icon: fa-solid fa-envelope
-        link: mailto:marcus@marcus233.top
+        link: mailto:xiaoxin104@outlook.com
         desrc: 发送邮件
         class: out
     right:
       - icon: fa-brands fa-github
-        link: https://github.com/Marcusyyds
+        link: https://github.com/wyblog11
         desrc: Github主页
         class: out
       - icon: fa-brands fa-bilibili
@@ -1108,7 +1108,7 @@ footer_beautify:
         class: in
   footer_logo:
     enable: true
-    url: https://img01.anzhiy.cn/useruploads/8/2022/12/15/639adf5b8806a.png
+    url: https://cdn-us.imgs.moe/2023/04/22/64431dd94e287.jpg
   footer_group:
     enable: true
     footer_group_link:
@@ -1121,7 +1121,7 @@ footer_beautify:
             link: /sentence/
             class: in
           - text: 空间说说
-            link: /zone/
+            link: /memos/
             class: in
           - text: 友链订阅
             link: /fcircle/
@@ -1137,12 +1137,6 @@ footer_beautify:
           - text: RSS订阅
             link: /atom.xml
             class: in
-          - text: 站点监控
-            link: https://uptime.marcus233.top/
-            class: out
-          - text: 更新记录
-            link: /timeline/
-            class: in
           - text: 我的相册
             link: /picture/
             class: in
@@ -1151,18 +1145,6 @@ footer_beautify:
           - text: 博客相关
             link: /categories/博客相关
             class: in
-          - text: 生活点滴
-            link: /categories/生活点滴
-            class: in 
-          - text: 资源分享
-            link: /categories/资源分享
-            class: in
-          - text: 学习笔记
-            link: /categories/学习笔记
-            class: in 
-          - text: 实用教程
-            link: /categories/实用教程
-            class: in 
           - text: 查看全部
             link: /categories/
             class: in 
@@ -1173,7 +1155,7 @@ footer_beautify:
     copyright:
       enable: true
       author: Marcus
-      link: https://marcus233.top/
+      link: https://wyblog1.tk/
       time: 2022
     left:
       - text: 雨云
@@ -1182,15 +1164,6 @@ footer_beautify:
       - text: 网盾星球
         desrc: 本站CDN防护主要提供商:网盾星球
         link: https://www.netdun.net/
-      - text: 萌ICP备20230221
-        desrc: 萌ICP备20230221
-        link: https://icp.gov.moe/?keyword=20230221
-      - text: 萌ICP备20236688
-        desrc: 萌ICP备20236688
-        link: https://icp.gov.moe/?keyword=20236688
-      - text: 萌ICP备20230002
-        desrc: 萌ICP备20230002
-        link: https://icp.gov.moe/?keyword=20230002
     right:
       - text: Hexo
         desrc: 框架
@@ -1200,6 +1173,6 @@ footer_beautify:
         link: https://butterfly.js.org/
     runtime:
       enable: true
-      time: 2022/08/09 00:00:00
+      time: 2023/01/29 00:00:00
   footer_css: https://cdn1.tianli0.top/npm/hexo-butterfly-footer-marcus/lib/footer.min.css
   footer_js: https://cdn1.tianli0.top/npm/hexo-butterfly-footer-marcus/lib/footer.min.js
