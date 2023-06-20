@@ -879,6 +879,7 @@ inject:
     - <script async src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script> # 引入VUE(f12)
     - <script async src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script> # 引入ElementUI(f12)
     - <script async src="/js/add/F12%E5%92%8C%E5%A4%8D%E5%88%B6.js"></script> # 引入复制提醒
+    - <script src="/js/sun_moon.js" async></script>
     # - <script src="https://cdn1.tianli0.top/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script> # 拉姆雷姆角标参考
     # - <script src="xxxx"></script>
 
