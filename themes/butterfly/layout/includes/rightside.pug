@@ -31,7 +31,6 @@ mixin rightsideItem(array)
             i.fas.fa-comments
 
 #rightside
-  - const { enable, hide, show } = theme.rightside_item_order
   - const hideArray = enable ? hide && hide.split(',') : ['readmode','translate','darkmode','hideAside']
   - const showArray = enable ? show && show.split(',') : ['toc','chat','comment']
 
