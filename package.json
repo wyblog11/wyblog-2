@@ -27,7 +27,7 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-pug": "^1.0.0",
     "hexo-renderer-stylus": "^3.0.0",
-    "hexo-butterfly-footer-landv": "github:landv/hexo-butterfly-footer-landv",
+    "hexo-butterfly-footer-marcus": "^1.1.3",
     "yamljs": "^0.3.0",
     "hexo-server": "^3.0.0",
     "hexo-tag-aplayer": "^3.0.4",
