@@ -161,7 +161,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: ffalse
+  enable: false
   subtitle: '404 无法访问'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
