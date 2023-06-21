@@ -18,10 +18,10 @@ nav#nav
     a.darkmode.switch
       svg.icon(aria-hidden="true")
         use(xlink:href=`#`+ 'icon-deng1')
-          if (theme.display_mode == 'dark')
-              span#darkmode-switch=' 开灯'
-            else  
-              span#darkmode-switch=' 关灯'
+      if (theme.display_mode == 'dark')
+        span#darkmode-switch=' 开灯'
+      else  
+        span#darkmode-switch=' 关灯'
 
     #toggle-menu
       a.site-page(href="javascript:void(0);")
