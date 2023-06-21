@@ -1,6 +1,6 @@
 extends includes/layout.pug
 
-block content
+block content_leftside
   #content_leftside
     #left_menu
       //- 联系方式
@@ -73,17 +73,3 @@ block content
     if page.comments !== false && theme.comments && theme.comments.use
       - var commentsJsLoad = true
       !=partial('includes/third-party/comments/index', {}, {cache: true})
-
-block content
-  - let tocNumber = page.toc_number !== undefined ? page.toc_number : theme.toc.number
-  #content_rightside
-    #rightside-toc
-      .toc-box
-        if (page.encrypt == true)
-          .toc-content.toc-div-class(style="display:none")!=toc(page.origin, {list_number: tocNumber})
-        else 
-          .toc-content!=toc(page.content, {list_number: tocNumber})
-    #rightside-button
-      button#rightside-go-up(type="button" title=_p("rightside.back_to_top"))
-        i.fas.fa-arrow-up
-      
