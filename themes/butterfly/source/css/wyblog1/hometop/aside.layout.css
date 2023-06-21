@@ -16,16 +16,3 @@
     padding: 0 5px 0 5px;
   }
 }
-/* 除了首页以外其他页面隐藏卡片，并采用宽屏显示 */
-#archive,
-#category,
-#page,
-#tag {
-  width: 100%;
-}
-.page:not(.page.home) .aside-content {
-  display: none;
-}
-.page:true(.page.post) .aside-content {
-  display: none;
-}
