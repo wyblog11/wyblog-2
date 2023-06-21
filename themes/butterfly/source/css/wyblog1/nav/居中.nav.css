@@ -1,4 +1,5 @@
-#nav .menus_items {
-    width: fit-content;
-    transform: translateX(-186%);
+#nav .menus_items .menus_item {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 0.7rem;
 }
