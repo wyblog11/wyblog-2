@@ -5,6 +5,9 @@
       a.post-edit-link(href=theme.post_edit.url + page.source title=_p('post.edit') target="_blank")
         i.fas.fa-pencil-alt
         
+  #post-meta
+    .tag-cloud-list.is-center
+      !=cloudTags({source: page.tags, minfontsize: 1.5, maxfontsize: 1.8, limit: 0, unit: 'em'})
 
     .meta-firstline
       if (theme.post_meta.post.date_type)
