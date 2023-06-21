@@ -1,7 +1,10 @@
 nav#nav
-  #nav-group
-    span#blog_name
-      a#site-name(href=url_for('/')) #[=config.title]
+  span#blog-info
+    a(href=url_for('/') title=config.title)
+      if theme.nav.logo
+        img.site-icon(src=url_for(theme.nav.logo))
+      if theme.nav.display_title
+        span.site-name=config.title
       
     #menus
       !=partial('includes/header/menu_item', {}, {cache: true})
