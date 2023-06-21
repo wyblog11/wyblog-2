@@ -9,20 +9,20 @@ nav#nav
   #menus
     !=partial('includes/header/menu_item', {}, {cache: true})
 
-    #toggle-menu
-      if (theme.algolia_search.enable || theme.local_search.enable || theme.docsearch.enable)
-        #search-button
-          a.site-page.social-icon.search(href="javascript:void(0);")
-            svg.icon(aria-hidden="true")
-              use(xlink:href=`#`+ 'icon-sousuo')
-
-      a.site-page(href="javascript:void(0);")
-        i.fas.fa-bars.fa-fw
-
-      a.darkmode.switch
-        svg.icon(aria-hidden="true")
-          use(xlink:href=`#`+ 'icon-deng1')
-            if (theme.display_mode == 'dark')
+  #nav-right
+    if (theme.algolia_search.enable || theme.local_search.enable || theme.docsearch.enable)
+      #search-button
+        a.site-page.social-icon.search(href="javascript:void(0);")
+          svg.icon(aria-hidden="true")
+            use(xlink:href=`#`+ 'icon-sousuo')
+    a.darkmode.switch
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-deng1')
+          if (theme.display_mode == 'dark')
               span#darkmode-switch=' 开灯'
             else  
               span#darkmode-switch=' 关灯'
+
+    #toggle-menu
+      a.site-page(href="javascript:void(0);")
+        i.fas.fa-bars.fa-fw
