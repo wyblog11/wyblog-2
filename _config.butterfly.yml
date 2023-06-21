@@ -5,7 +5,7 @@
 nav:
   logo: # image
   display_title: true
-  fixed: true # fixed navigation bar
+  fixed: true
 
 # format: name: link || icon
 # sub-menu
