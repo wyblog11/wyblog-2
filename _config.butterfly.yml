@@ -911,7 +911,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
