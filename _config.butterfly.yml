@@ -932,7 +932,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: jsdelivr
+  third_party_provider: unpkg
 
   # Add version number to url, true or false
   version: false
@@ -976,7 +976,7 @@ CDN:
     # instantpage:
     # typed:
     # pangu:
-    # fancybox_css:
+    fancybox_css: https://cdn1.tianli0.top/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css
     # fancybox:
     # medium_zoom:
     # snackbar_css:
@@ -985,7 +985,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesome:
+    fontawesome: https://cdn1.tianli0.top/npm/@fortawesome/fontawesome-free/css/all.min.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
