@@ -942,62 +942,83 @@ CDN:
   custom_format: https://cdn1.tianli0.top/${cdnjs_name}/${version}/${min_cdnjs_file}
 
   option:
-    # main_css:
-    # main:
-    # utils:
-    # translate:
-    # local_search:
-    # algolia_js:
-    # algolia_search:
-    # instantsearch:
-    # docsearch_js:
-    # docsearch_css:
-    # pjax:
-    # gitalk:
-    # gitalk_css:
-    # blueimp_md5:
-    # valine:
-    # disqusjs:
-    # disqusjs_css:
-    # twikoo:
-    # waline_js:
-    # waline_css:
-    # giscus:
-    # sharejs:
-    # sharejs_css:
-    # mathjax:
-    # katex:
-    # katex_copytex:
-    # mermaid:
-    # canvas_ribbon:
-    # canvas_fluttering_ribbon:
-    # canvas_nest:
-    # lazyload:
-    # instantpage:
-    # typed:
-    # pangu:
-    fancybox_css: https://cdn1.tianli0.top/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css
-    # fancybox:
-    # medium_zoom:
-    # snackbar_css:
-    # snackbar:
-    # activate_power_mode:
-    # fireworks:
-    # click_heart:
-    # ClickShowText:
-    fontawesome: https://cdn1.tianli0.top/npm/@fortawesome/fontawesome-free/css/all.min.css
-    # flickr_justified_gallery_js:
-    # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
-    # prismjs_js:
-    # prismjs_lineNumber_js:
-    # prismjs_autoloader:
-    # artalk_js:
-    # artalk_css:
-    # busuanzi:
-    # abcjs_basic_js:
+    main_css: /css/index.css
+    jquery: https://cdnjs.sourcegcdn.com/ajax/libs/jquery/3.6.0/jquery.min.js
+    main: /js/main.js
+    utils: /js/utils.js
+
+  # pjax
+    pjax: https://cdnjs.sourcegcdn.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
+
+  # comments
+    gitalk: https://cdn1.tianli0.top/npm/gitalk@latest/dist/gitalk.min.js
+    gitalk_css: https://cdn1.tianli0.top/npm/gitalk/dist/gitalk.min.css
+    valine: https://cdn1.tianli0.top/npm/valine/dist/Valine.min.js
+    disqusjs: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqus.js
+    disqusjs_css: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqusjs.css
+    utterances: https://utteranc.es/client.js
+    twikoo: https://cdnjs.sourcegcdn.com/ajax/libs/twikoo/1.6.7/twikoo.all.min.js
+    waline: https://cdn1.tianli0.top/npm/@waline/client/dist/Waline.min.js
+
+  # share
+    addtoany: https://static.addtoany.com/menu/page.js
+    sharejs: https://cdnjs.sourcegcdn.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js
+    sharejs_css: https://cdnjs.sourcegcdn.com/ajax/libs/social-share.js/1.0.16/css/share.min.css
+
+  # search
+    local_search: /js/search/local-search.js
+    algolia_js: /js/search/algolia.js
+    algolia_search: https://cdn1.tianli0.top/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
+    algolia_search_css: https://cdn1.tianli0.top/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+
+  # math
+    mathjax: https://cdnjs.sourcegcdn.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js
+    katex: https://cdnjs.sourcegcdn.com/ajax/libs/KaTeX/0.15.3/katex.min.css
+    katex_copytex: https://cdnjs.sourcegcdn.com/ajax/libs/KaTeX/0.15.3/contrib/copy-tex.min.js
+    katex_copytex_css: https://cdnjs.sourcegcdn.com/ajax/libs/KaTeX/0.15.3/contrib/copy-tex.min.css
+    mermaid: https://cdnjs.sourcegcdn.com/ajax/libs/mermaid/9.0.0/mermaid.min.js
+
+  # count
+    busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+  # background effect
+    canvas_ribbon: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+    canvas_fluttering_ribbon: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
+    canvas_nest: https://cdnjs.sourcegcdn.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js
+
+    instantpage: https://cdnjs.sourcegcdn.com/ajax/libs/instant.page/5.1.0/instantpage.min.js
+    typed: https://cdnjs.sourcegcdn.com/ajax/libs/typed.js/2.0.12/typed.min.js
+    pangu: https://cdnjs.sourcegcdn.com/ajax/libs/pangu/4.0.7/pangu.min.js
+
+  # photo
+    fancybox_css: https://cdnjs.sourcegcdn.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
+    fancybox: https://cdnjs.sourcegcdn.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
+    medium_zoom: https://cdnjs.sourcegcdn.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js
+
+  # snackbar
+    snackbar_css: https://cdnjs.sourcegcdn.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.css
+    snackbar: https://cdnjs.sourcegcdn.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
+
+  # effect
+    activate_power_mode: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
+    fireworks: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/fireworks.min.js
+    click_heart: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/click-heart.min.js
+    ClickShowText: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/click-show-text.min.js
+
+  # fontawesome
+    fontawesome: https://cdnjs.sourcegcdn.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+
+  # Conversion between Traditional and Simplified Chinese
+    translate: /js/tw_cn.js
+
+  # justifiedGallery
+    justifiedGallery_js: https://cdnjs.sourcegcdn.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
+    justifiedGallery_css: https://cdnjs.sourcegcdn.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css
+
+  # Prism.js
+    prismjs_js: hhttps://cdnjs.sourcegcdn.com/ajax/libs/prism/1.28.0/prism.min.js
+    prismjs_lineNumber_js: https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+    prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
 # tag-plugins-plus
 ## see https://akilar.top/posts/615e2dec/
 tag_plugins:
