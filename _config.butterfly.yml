@@ -911,7 +911,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
@@ -1005,7 +1005,7 @@ tag_plugins:
   priority: 5 #过滤器优先权
   issues: false #issues标签依赖注入开关
   CDN:
-    anima: https://cdn1.tianli0.top/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css #动画标签anima的依赖
+    anima: /css/font-awesome-animation.min.css #动画标签anima的依赖
     jquery: https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js #issues标签依赖
     issues: https://cdn1.tianli0.top/npm/hexo-theme-volantis@latest/source/js/issues.min.js #issues标签依赖
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
