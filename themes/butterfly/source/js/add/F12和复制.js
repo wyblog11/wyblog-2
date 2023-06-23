@@ -1,41 +1,38 @@
 // 复制提醒
-document.addEventListener("copy", function () {
-  debounce(function () {
-    new Vue({
-      data: function () {
-        this.$notify({
-          title: "哎嘿！复制成功🍬",
-          message: "若要转载最好保留原文链接哦，给你一个大大的赞！",
-          position: 'top-left',
-          offset: 50,
-          showClose: true,
-          type: "success",
-          duration: 5000
-        });
-      }
-    })
-  }, 300);
+document.addEventListener("copy",function(e){
+  new Vue({
+    data:function(){
+      this.$notify({
+        title:"哎嘿！复制成功",
+        message:"若要转载请务必保留原文链接！猹分你个瓜！",
+        position: 'bottom-right',
+        offset: 50,
+        showClose: false,
+        type:"success"
+      });
+      return{visible:false}
+    }
+  })
 })
 
-
-// f12提醒但不禁用
-document.onkeydown = function (e) {
-  if (123 == e.keyCode || (e.ctrlKey && e.shiftKey && (74 === e.keyCode || 73 === e.keyCode || 67 === e.keyCode)) || (e.ctrlKey && 85 === e.keyCode)) {
-    debounce(function () {
-      new Vue({
-        data: function () {
-          this.$notify({
-            title: "你已被发现😜",
-            message: "小伙子，扒源记住要遵循GPL协议！",
-            position: 'top-left',
-            offset: 50,
-            showClose: true,
-            type: "warning",
-            duration: 5000
-          });
-        }
-      })
-    }, 300);
+/* 禁用F12按键并提醒 */
+document.onkeydown = function () {
+  if (window.event && window.event.keyCode == 123) {
+    event.keyCode = 0;
+    event.returnValue = false;
+    new Vue({
+      data:function(){
+        this.$notify({
+          title:"啊啊！你干嘛啊！",
+          message:"怎么能随随便便想扒猹的底裤呢？坏！",
+          position: 'bottom-right',
+          offset: 50,
+          showClose: false,
+          type:"error"
+        });
+        return{visible:false}
+      }
+    })
+    return false;
   }
 };
-/* 禁用f12与按键防抖 end */
