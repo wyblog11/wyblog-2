@@ -16,6 +16,6 @@
 #archive,#page,#category,#tag,#posts{
     width:100%;
 }
-.page .aside-content{
-    display: none;
+.page:not(.page.home) .aside-content {
+  display: none;
 }
