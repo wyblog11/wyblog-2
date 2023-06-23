@@ -1,4 +1,21 @@
-/* 全局宽度 */
-.layout {
-  max-width: 1400px;
+.layout{
+  max-width:1400px;
+}
+.aside-content{
+    max-width:312px;
+    min-width:300px;
+}
+.recent-posts{
+  width:auto!important;
+}
+@media screen and (max-width: 900px){
+    .aside-content{
+        max-width:none!important;
+    }
+}
+#archive,#page,#category,#tag,#posts{
+    width:100%;
+}
+.page .aside-content{
+    display: none;
 }
