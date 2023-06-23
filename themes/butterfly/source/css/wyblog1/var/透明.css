@@ -1,6 +1,5 @@
 :root {
-  /* --card-bg: #fff; */
-  --card-bg: #ffefefd9;
+  --card-bg: #fff;
 }
 
 [data-theme="dark"] {
