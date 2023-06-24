@@ -11,7 +11,6 @@ nav:
 # sub-menu
 # name || icon:
 #   name: link || icon
-
 menu:
   文章 || icon-xiegenjin:
     归档: /archives/ || icon-shoujianxiang
@@ -29,6 +28,8 @@ menu:
     报纸: https://news.wyblog1.tk/ || icon-xinwen
     木鱼: /muyu/ || icon-muyu1
 
+# Hide the child menu items in mobile sidebar
+hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
