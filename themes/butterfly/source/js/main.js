@@ -1,26 +1,28 @@
-document.addEventListener('DOMContentLoaded', function () {
-  let headerContentWidth, $nav
-  let mobileSidebarOpen = false
+  const $blogName = document.getElementById('site-name')
+  let blogNameWidth = $blogName && $blogName.offsetWidth
+  const $menusEle = document.querySelector('#menus .menus_items')
+  let menusWidth = $menusEle && $menusEle.offsetWidth
+  const $searchEle = document.querySelector('#search-button')
+  let searchWidth = $searchEle && $searchEle.offsetWidth
+  //begin 屏幕长度缩减修复（
+  const $darkmodeBtEle = document.querySelector('#darkmodeBt')
+  let darkmodeBtWidth = $darkmodeBtEle && $darkmodeBtEle.offsetWidth
+  //end
 
-  const adjustMenu = init => {
-    const getAllWidth = ele => {
-      let width = 0
-      ele.length && Array.from(ele).forEach(i => { width += i.offsetWidth })
-      return width
+  const adjustMenu = (change = false) => {
+    if (change) {
+      blogNameWidth = $blogName && $blogName.offsetWidth
+      menusWidth = $menusEle && $menusEle.offsetWidth
+      searchWidth = $searchEle && $searchEle.offsetWidth
     }
+    const $nav = document.getElementById('nav')
+    let t
+    if (window.innerWidth <= 900) t = true
+    //begin 屏幕长度缩减修复（
+    else t = blogNameWidth + menusWidth + searchWidth + darkmodeBtWidth > $nav.offsetWidth - 120
+    //end
 
-    if (init) {
-      const blogInfoWidth = getAllWidth(document.querySelector('#blog-info > a').children)
-      const menusWidth = getAllWidth(document.getElementById('menus').children)
-      headerContentWidth = blogInfoWidth + menusWidth
-      $nav = document.getElementById('nav')
-    }
-
-    let hideMenuIndex = ''
-    if (window.innerWidth <= 768) hideMenuIndex = true
-    else hideMenuIndex = headerContentWidth > $nav.offsetWidth - 120
-
-    if (hideMenuIndex) {
+    if (t) {
       $nav.classList.add('hide-menu')
     } else {
       $nav.classList.remove('hide-menu')
@@ -34,22 +36,38 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // sidebar menus
-  const sidebarFn = {
-    open: () => {
+  const sidebarFn = () => {
+    const $toggleMenu = document.getElementById('toggle-menu')
+    const $mobileSidebarMenus = document.getElementById('sidebar-menus')
+    const $menuMask = document.getElementById('menu-mask')
+    const $body = document.body
+
+    function openMobileSidebar () {
       btf.sidebarPaddingR()
-      document.body.style.overflow = 'hidden'
-      btf.animateIn(document.getElementById('menu-mask'), 'to_show 0.5s')
-      document.getElementById('sidebar-menus').classList.add('open')
-      mobileSidebarOpen = true
-    },
-    close: () => {
-      const $body = document.body
+      $body.style.overflow = 'hidden'
+      $mobileSidebarMenus.classList.add('open')
+    }
+
+    function closeMobileSidebar () {
       $body.style.overflow = ''
       $body.style.paddingRight = ''
-      btf.animateOut(document.getElementById('menu-mask'), 'to_hide 0.5s')
-      document.getElementById('sidebar-menus').classList.remove('open')
-      mobileSidebarOpen = false
+      btf.fadeOut($menuMask, 0.5)
+      $mobileSidebarMenus.classList.remove('open')
     }
+
+    $toggleMenu.addEventListener('click', openMobileSidebar)
+
+    $menuMask.addEventListener('click', e => {
+      if ($mobileSidebarMenus.classList.contains('open')) {
+        closeMobileSidebar()
+      }
+    })
+
+    window.addEventListener('resize', e => {
+      if (btf.isHidden($toggleMenu)) {
+        if ($mobileSidebarMenus.classList.contains('open')) closeMobileSidebar()
+      }
+    })
   }
 
   /**
@@ -63,24 +81,35 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /**
-   * 代碼
-   * 只適用於Hexo默認的代碼渲染
-   */
+ * 代碼
+ * 只適用於Hexo默認的代碼渲染
+ */
   const addHighlightTool = function () {
     const highLight = GLOBAL_CONFIG.highlight
     if (!highLight) return
 
-    const { highlightCopy, highlightLang, highlightHeightLimit, plugin } = highLight
+    const isHighlightCopy = highLight.highlightCopy
+    const isHighlightLang = highLight.highlightLang
     const isHighlightShrink = GLOBAL_CONFIG_SITE.isHighlightShrink
-    const isShowTool = highlightCopy || highlightLang || isHighlightShrink !== undefined
-    const $figureHighlight = plugin === 'highlighjs' ? document.querySelectorAll('figure.highlight') : document.querySelectorAll('pre[class*="language-"]')
+    const highlightHeightLimit = highLight.highlightHeightLimit
+    const isShowTool = isHighlightCopy || isHighlightLang || isHighlightShrink !== undefined
+    const $figureHighlight = highLight.plugin === 'highlighjs' ? document.querySelectorAll('figure.highlight') : document.querySelectorAll('pre[class*="language-"]')
 
     if (!((isShowTool || highlightHeightLimit) && $figureHighlight.length)) return
 
-    const isPrismjs = plugin === 'prismjs'
+    const isPrismjs = highLight.plugin === 'prismjs'
+
+    let highlightShrinkEle = ''
+    let highlightCopyEle = ''
     const highlightShrinkClass = isHighlightShrink === true ? 'closed' : ''
-    const highlightShrinkEle = isHighlightShrink !== undefined ? `<i class="fas fa-angle-down expand ${highlightShrinkClass}"></i>` : ''
-    const highlightCopyEle = highlightCopy ? '<div class="copy-notice"></div><i class="fas fa-paste copy-button"></i>' : ''
+
+    if (isHighlightShrink !== undefined) {
+      highlightShrinkEle = `<i class="fas fa-angle-down expand ${highlightShrinkClass}"></i>`
+    }
+
+    if (isHighlightCopy) {
+      highlightCopyEle = '<div class="copy-notice"></div><i class="fas fa-paste copy-button"></i>'
+    }
 
     const copy = (text, ctx) => {
       if (document.queryCommandSupported && document.queryCommandSupported('copy')) {
