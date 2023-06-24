@@ -10,7 +10,6 @@ cover: https://images.boysec.cn/cover1.webp
 mathjax: true
 katex: true
 description: 用super搭建属于自己的博客
-abbrlink: 13229
 date: 2023-06-11 20:05:10
 swiper_index: 2 #置顶轮播图顺序，需填非负整数，数字越大越靠前
 top_group_index: 2 #右侧磁帖顺序，需填非负整数，数字越大越靠前
