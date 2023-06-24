@@ -20,9 +20,9 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
       #body-wrap(class=pageType)
         include ./header/index.pug
 
+        #mainbody
         if is_home()
           #home_top
-          #mainbody
         main#content-inner.layout(class=hideAside)
           if body
             div!= body
