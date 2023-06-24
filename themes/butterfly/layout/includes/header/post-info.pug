@@ -7,8 +7,7 @@
         
   #post-meta
     .tag-cloud-list.is-center
-      !=cloudTags({source: site.tags, minfontsize: 1.2, maxfontsize: 2.1, limit: 0, unit: 'em'})
-
+      !=cloudTags({source: page.tags, minfontsize: 1.2, maxfontsize: 2.1, limit: 0, unit: 'em'})
     .meta-firstline
       if (theme.post_meta.post.date_type)
         span.post-meta-date
