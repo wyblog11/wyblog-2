@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
     function openMobileSidebar () {
       btf.sidebarPaddingR()
       $body.style.overflow = 'hidden'
-      btf.fadeIn($menuMask, 0.5)
       $mobileSidebarMenus.classList.add('open')
     }
 
