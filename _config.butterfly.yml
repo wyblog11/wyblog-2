@@ -948,6 +948,7 @@ CDN:
 
   option:
     main_css: /css/index.css
+    main_js: https://noionion.top/js/main.js
     jquery: https://cdnjs.sourcegcdn.com/ajax/libs/jquery/3.6.0/jquery.min.js
     utils: /js/utils.js
 
